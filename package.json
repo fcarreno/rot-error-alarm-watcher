@@ -1,0 +1,16 @@
+{
+  "name": "rot-error-alarm-watcher",
+  "version": "1.0.0",
+  "description": "Rotunda Error Alarm Exercise (log file watcher module)",
+  "main": "watcher.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fcarreno/rot-error-alarm-watcher.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fcarreno/rot-error-alarm-watcher/issues"
+  },
+  "homepage": "https://github.com/fcarreno/rot-error-alarm-watcher#readme"
+}

@@ -1,5 +1,7 @@
 .idea
 
+watcher.json
+
 # Logs
 logs
 *.log
