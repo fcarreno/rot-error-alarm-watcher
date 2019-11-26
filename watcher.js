@@ -9,6 +9,8 @@ const logReaderUtil = require('./utils/logging/logreader');
 let logReader;
 
 /* ASSUMPTIONS:
+ -- Assumes time range that logic checks to determine if error threshold has been exceeded is NOT configurable
+    (just checks for log error entries that took place within the same minute)
  -- Assumes error log file includes one error (a JSON object) per line.
  -- To simplify errors timestamp comparisons, assumes error log is recycled/rotated per day.
     (not considering comparison of day/month, just hour and minute...)
