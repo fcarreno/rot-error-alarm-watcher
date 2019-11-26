@@ -12,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/fcarreno/rot-error-alarm-watcher/issues"
   },
-  "homepage": "https://github.com/fcarreno/rot-error-alarm-watcher#readme"
+  "homepage": "https://github.com/fcarreno/rot-error-alarm-watcher#readme",
+  "dependencies": {
+    "n-readlines": "^1.0.0"
+  }
 }
