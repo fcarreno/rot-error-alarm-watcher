@@ -4,6 +4,8 @@
 
 ### Process accepts several parameters for custom execution such as error threshold, error log file path and poll interval.
 
+### It also documents latest execution status in a log file (`watcher.json`), to keep track of processed information and use in subsequent intervals.
+
 ### Works in conjunction with SIMPLE EXPRESS TEST API server under:
 https://github.com/fcarreno/rot-error-alarm-server
 
