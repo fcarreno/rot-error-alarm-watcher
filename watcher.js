@@ -33,6 +33,8 @@ let logReader;
 */
 
 
+console.log(`===> WATCHER POLLING PROCESS TRIGGERED...PROCESS WILL EXECUTE IN APPROX ${pollErrorFileInterval} ms...`);
+
 // Poll the error log file...(default interval 60 secs)
 // (to prevent sending more than one alert/email within one minute)
 setInterval(watcherMain, pollErrorFileInterval);

@@ -14,7 +14,7 @@ https://github.com/fcarreno/rot-error-alarm-server
 ### SETUP & RUN
 1. Clone the repo
 2. `npm install` (install dependencies)
-3. `npm start` (start watcher process)
+3. `node watcher.js` (start watcher process)
 
 NOTE: can also run the process passing environment variables to customize execution rules.
 See available variables on top of [watcher.js](watcher.js)
