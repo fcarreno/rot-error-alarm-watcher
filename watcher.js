@@ -108,7 +108,7 @@ function runWatcherIntervalCheck(){
         // Otherwise the last line processed is the previous/'current' one...(EOF was reached)
         lastProcessedLineInfo = nextLineInfo || currentLineInfo;
         lastProcessedLineInfo.accumulatedErrors = sameTimeRangeAccumulatedErrors;
-        return { lastIntervalExecutionTime: new Date().toISOString(), lastProcessedLineInfo }; // TODO: test with no lines here...
+        return { lastIntervalExecutionTime: new Date().toISOString(), lastProcessedLineInfo }; 
 
     }
     else{
