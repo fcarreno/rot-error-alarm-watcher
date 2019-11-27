@@ -130,7 +130,6 @@ function skipToNextTimeRange(currentLineInfo){
     return nextLineInfo;
 }
 
-// TODO: need to close file via logreader so intervals can resume?
 // Function to check whether the error threshold has exceeded, and sends notification.
 function processWatcherIntervalResult(watcherIntervalResult){
 
